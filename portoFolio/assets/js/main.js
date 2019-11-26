@@ -1,8 +1,6 @@
 (function($){
     
     "use strict";
-    
-    //===== Prealoder
 
     
     //===== Mobile Menu 
@@ -87,12 +85,12 @@
     
     //===== Magnific Popup
     
-    $('.image-popup').magnificPopup({
-      type: 'image',
-      gallery:{
-        enabled:true
-      }
-    });
+    // $('.image-popup').magnificPopup({
+    //   type: 'image',
+    //   gallery:{
+    //     enabled:false
+    //   }
+    // });
     
     
     //===== Back to top
@@ -115,13 +113,6 @@
             scrollTop: 0,
         }, 1500);
     });
-    
-
-    
-    //===== 
-    
-    
-    
     
     
 }(jQuery));
