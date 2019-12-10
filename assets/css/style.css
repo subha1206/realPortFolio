@@ -286,7 +286,18 @@ p {
         color:coral; }
         .navigation .navbar .navbar-nav .nav-item.active a::before, .navigation .navbar .navbar-nav .nav-item:hover a::before {
           height: 45px; }
-
+#intro-img {
+  position: absolute;
+  opacity: .7;
+}
+@media (max-width: 767px){
+  #intro-img {
+    position: absolute;
+    opacity: .7;
+    padding: 0;
+    width: 100%;
+  }
+}
 .header-content {
   height: 730px;
   width: 100%;
@@ -843,15 +854,3 @@ p.form-message.success, p.form-message.error {
         transform: translateY(-50%); }
 
 
-#intro-img {
-  position: absolute;
-  opacity: .7;
-}
-@media (max-width: 767px){
-  #intro-img {
-    position: absolute;
-    opacity: .7;
-    padding: 0;
-    width: 100%;
-  }
-}
